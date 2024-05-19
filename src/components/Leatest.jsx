@@ -31,7 +31,7 @@ const Leatest = () => {
               <Productitem src={l2}/>
               <Productitem src={l3}/>
               </div>
-              <div className='flex justify-between'>
+              <div className='flex justify-between mt-[120px]'>
               <Productitem src={l4}/>
               <Productitem src={l5}/>
               <Productitem src={l6}/>

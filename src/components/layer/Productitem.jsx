@@ -58,7 +58,7 @@ const Productitem = ({src, alt, className, offer}) => {
 
         </div>
 
-        <div className="flex justify-between items-center pt-4 pb-1  bg-slate-400">
+        <div className="flex justify-between items-center pt-4 pb-1 ">
             <h2 className='text-base  text-[#151875] font-Josefin after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-[#EEEFFB] relative hover:after:w-full after:transition-all after:duration-300 cursor-pointer'>
                 Comfort Handy Craft
             </h2>
