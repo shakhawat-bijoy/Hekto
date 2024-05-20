@@ -9,7 +9,7 @@ import s4 from '../assets/s4.png'
 
 const Shopex = () => {
   return (
-    <div className='lg:mt-[140px] mt-20'>
+    <div className='lg:mt-[70px] mt-20'>
         <Container className="px-3 lg:px-0">
             <Title className="text-center" text="What Shopex Offer!"/>
 

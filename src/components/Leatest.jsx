@@ -12,9 +12,9 @@ import l6 from '../assets/l6.png'
 
 const Leatest = () => {
   return (
-    <div className=''>
+    <div className='pb-11'>
         <Container className="px-3 lg:px-0">
-            <Title className="text-center lg:mt-[70px] mt-8" text="Leatest Products"/>
+            <Title className="text-center lg:mt-[70px] mt-10" text="Leatest Products"/>
 
            
               <ul className='flex items-center flex-col gap-y-2 lg:flex-row gap-x-[60px] justify-center mt-5 lg:mb-[58px] mb-6'>
@@ -26,7 +26,7 @@ const Leatest = () => {
               
               </ul>
 
-            <div className='flex flex-wrap justify-between gap-10 gap-y-10'>
+            <div className='flex flex-wrap justify-between gap-y-[120px]'>
               <Productitem src={l1}/>
               <Productitem src={l2}/>
               <Productitem src={l3}/>

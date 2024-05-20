@@ -43,16 +43,6 @@ const Productitem = ({src, alt, className, offer}) => {
                         </button>
                      </Link>
                      
-
-                    
-
-
-
-
-
-
-
-
                 </ul>
             </div>
 
