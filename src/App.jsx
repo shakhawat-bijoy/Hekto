@@ -8,6 +8,7 @@ import {
 
 import RootLayout from './components/layer/RootLayout';
 import Home from './components/page/Home';
+import Error from './components/page/Error';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Route
         path="/"
         element={<RootLayout />}
+        errorElement={<Error />}
       >
           <Route index element={<Home/>}></Route>
       </Route>

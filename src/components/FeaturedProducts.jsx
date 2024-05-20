@@ -6,6 +6,8 @@ import Button from './layer/Button'
 import f1 from '../assets/f1.png'
 import f2 from '../assets/f2.png'
 import f3 from '../assets/f3.png'
+import l5 from '../assets/l5.png'
+import l6 from '../assets/l6.png'
 import { Link } from 'react-router-dom'
 import { IoCartOutline } from 'react-icons/io5'
 import { FaRegHeart, FaSearchPlus } from 'react-icons/fa'
@@ -48,21 +50,21 @@ const FeaturedProducts = () => {
 
             <div onClick={()=> setShow2(!show2)} className='lg:w-[270px] w-[370px] h-[361px] bg-slate-300 lg:mt-[50px] mt-6 cursor-pointer group'>
 
-<div className='h-[236px] bg-[#F6F7FB] relative'>
-<Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
-<Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show2? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
+            <div className='h-[236px] bg-[#F6F7FB] relative'>
+            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f2}/>
+            <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show2? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
 
 
 {/*  */}
 
-</div>
+            </div>
 
-<div className='h-[125px] bg-white hover:bg-[#2F1AC4] text-[#FB2E86]   hover:text-white transition-all duration-300 flex flex-col justify-center items-center gap-y-3 group'>
-    <h5 className='text-lg font-bold text-center'>Cantilever chair</h5>
-    <Image src={f1}/>
-    <p className='font-Josefin text-sm  font-normal'>Code - Y523201</p>
-    <p className='font-Josefin text-sm font-normal'>$42.00</p>
-</div>
+            <div className='h-[125px] bg-white hover:bg-[#2F1AC4] text-[#FB2E86]   hover:text-white transition-all duration-300 flex flex-col justify-center items-center gap-y-3 group'>
+                <h5 className='text-lg font-bold text-center'>Cantilever chair</h5>
+                <Image src={f1}/>
+                <p className='font-Josefin text-sm  font-normal'>Code - Y523201</p>
+                <p className='font-Josefin text-sm font-normal'>$42.00</p>
+            </div>
             </div>
 
 {/* ================================= */}
@@ -70,7 +72,7 @@ const FeaturedProducts = () => {
             <div onClick={()=> setShow3(!show3)} className='lg:w-[270px] w-[370px] h-[361px] bg-slate-300 lg:mt-[50px] mt-6 cursor-pointer group'>
 
             <div className='h-[236px] bg-[#F6F7FB] relative'>
-            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
+            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={l5}/>
             <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show3? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
 
 
@@ -90,21 +92,21 @@ const FeaturedProducts = () => {
 
             <div onClick={()=> setShow4(!show4)} className='lg:w-[270px] w-[370px] h-[361px] bg-slate-300 lg:mt-[50px] mt-6 cursor-pointer group'>
 
-<div className='h-[236px] bg-[#F6F7FB] relative'>
-<Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
-<Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show4? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
+            <div className='h-[236px] bg-[#F6F7FB] relative'>
+            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={l6}/>
+            <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show4? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
 
 
 {/*  */}
 
-</div>
+            </div>
 
-<div className='h-[125px] bg-white hover:bg-[#2F1AC4] text-[#FB2E86]   hover:text-white transition-all duration-300 flex flex-col justify-center items-center gap-y-3 group'>
-    <h5 className='text-lg font-bold text-center'>Cantilever chair</h5>
-    <Image src={f1}/>
-    <p className='font-Josefin text-sm  font-normal'>Code - Y523201</p>
-    <p className='font-Josefin text-sm font-normal'>$42.00</p>
-</div>
+            <div className='h-[125px] bg-white hover:bg-[#2F1AC4] text-[#FB2E86]   hover:text-white transition-all duration-300 flex flex-col justify-center items-center gap-y-3 group'>
+                    <h5 className='text-lg font-bold text-center'>Cantilever chair</h5>
+                    <Image src={f1}/>
+                    <p className='font-Josefin text-sm  font-normal'>Code - Y523201</p>
+                    <p className='font-Josefin text-sm font-normal'>$42.00</p>
+                </div>
             </div>
 
         </div>

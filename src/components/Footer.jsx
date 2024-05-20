@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="left">
 
           <div className="menu md:flex lg:gap-x-36 gap-x-14">
-          <ul className='mb-8'>
+          <ul className='mb-8 flex flex-col lg:gap-y-2 gap-y-1'>
               <h4 className='font-Josefin font-semibold text-[22px] text-[#000000] md:mb-4 mb-2'>Catagories</h4>
 
               <li>
@@ -56,7 +56,7 @@ const Footer = () => {
 
             {/* ======================== */}
 
-            <ul className='mb-8'>
+            <ul className='mb-8 flex flex-col lg:gap-y-2 gap-y-1'>
               <h4 className='font-Josefin font-semibold text-[22px] text-[#000000] md:mb-4 mb-2'>Customer Care</h4>
 
               <li>
@@ -80,7 +80,7 @@ const Footer = () => {
 
             {/* ============================== */}
 
-            <ul>
+            <ul className='mb-8 flex flex-col lg:gap-y-2 gap-y-1'>
               <h4 className='font-Josefin font-semibold text-[22px] text-[#000000] md:mb-4 mb-2'>Pages</h4>
 
               <li>

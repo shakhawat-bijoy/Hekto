@@ -8,7 +8,7 @@ import Trending from '../Trending'
 import Addtwo from '../Addtwo'
 import Discount from '../Discount'
 import Topcat from '../Topcat'
-import Award from '../Award'
+
 import Blog from '../Blog'
 
 const Home = () => {
@@ -23,7 +23,6 @@ const Home = () => {
       <Discount/>
       <Topcat/>
       <Addtwo/>
-      <Award/>
       <Blog/>
     </div>
   )

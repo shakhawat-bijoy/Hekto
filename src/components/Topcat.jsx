@@ -3,12 +3,10 @@ import Container from './layer/Container'
 import Title from './layer/Title'
 import Image from './layer/Image'
 import Button from './layer/Button'
-import f1 from '../assets/f1.png'
 import f2 from '../assets/f2.png'
 import f3 from '../assets/f3.png'
-import { Link } from 'react-router-dom'
-import { IoCartOutline } from 'react-icons/io5'
-import { FaRegHeart, FaSearchPlus } from 'react-icons/fa'
+import l5 from '../assets/l5.png'
+import l6 from '../assets/l6.png'
 
 const Topcat = () => {
   
@@ -47,7 +45,7 @@ const Topcat = () => {
             <div onClick={()=> setShow2(!show2)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
   
             <div className='h-[269px] bg-[#F6F7FB] hover:bg-[#ffffff] transition-all duration-500 rounded-full drop-shadow-md relative'>
-            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
+            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={l5}/>
             <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show2? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
 
 
@@ -67,7 +65,7 @@ const Topcat = () => {
             <div onClick={()=> setShow3(!show3)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
             
             <div className='h-[269px] bg-[#F6F7FB] hover:bg-[#ffffff] transition-all duration-500 rounded-full drop-shadow-md relative'>
-            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
+            <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={l6}/>
             <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show3? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
 
 
@@ -86,7 +84,7 @@ const Topcat = () => {
               <div onClick={()=> setShow4(!show4)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
   
               <div className='h-[269px] bg-[#F6F7FB] hover:bg-[#ffffff] transition-all duration-500 rounded-full drop-shadow-md relative'>
-              <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
+              <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f2}/>
               <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show4? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
   
   
