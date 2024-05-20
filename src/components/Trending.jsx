@@ -83,7 +83,7 @@ const Trending = () => {
 
 
             <div className='flex justify-between flex-wrap gap-y-4'>
-                <div className='w-[420px] h-[270px] relative'>
+                <div className='w-[420px] h-[270px] relative hover:bg-[#EEEFFB] transition-all duration-500'>
                     <h5 className='text-[#151875] font-Josefin text-[26px] font-semibold pt-8 ml-6 mb-3'>23% off in all products</h5>
                         <Link>
                             <p className='text-base font-semibold font-Lato text-[#FB4997] transition-all duration-300 border-b border-[#FB4997] ml-6 inline-block cursor-pointer'>Shop Now</p>
@@ -91,7 +91,8 @@ const Trending = () => {
                        <Image className="absolute top-[61px] right-[6px]" src={t5}/>
                     
                 </div>
-                    <div className='w-[420px] h-[270px] relative bg-[#EEEFFB]'>
+                {/* ============================ */}
+                    <div className='w-[420px] h-[270px] relative bg-[#EEEFFB] hover:bg-[#ffffff] transition-all duration-500'>
                     <h5 className='text-[#151875] font-Josefin text-[26px] font-semibold pt-8 ml-6 mb-3'>23% off in all products</h5>
                         <Link>
                             <p className='text-base font-semibold font-Lato text-[#FB4997] transition-all duration-300 border-b border-[#FB4997] ml-6 inline-block cursor-pointer'>Shop Now</p>
@@ -99,9 +100,10 @@ const Trending = () => {
                        <Image className="absolute top-[95px] right-[6px]" src={t6}/>
                     
                 </div>
+                {/* ============================ */}
 
                 <div className='lg:w-[267px] w-[420px] h-[270px] flex flex-col justify-between'>
-                    <div className=' h-[74px] bg-[#F5F6F8] flex'>
+                    <div className=' h-[74px] bg-[#F5F6F8] flex hover:bg-[#ffffff] transition-all duration-500'>
                         <Image className="mx-[21px]" src={t7}/>
                         <div className='ml-[10px] '>
                         <p className='text-base font-Josefin font-semibold text-[#151875] mt-5'>Executive Seat chair</p>
@@ -109,7 +111,7 @@ const Trending = () => {
                         </div>
                     </div>
 
-                        <div className=' h-[74px] bg-[#F5F6F8] flex'>
+                        <div className=' h-[74px] bg-[#F5F6F8] flex hover:bg-[#ffffff] transition-all duration-500'>
                         <Image className="mx-[21px]" src={t7}/>
                         <div className='ml-[10px] '>
                         <p className='text-base font-Josefin font-semibold text-[#151875] mt-5'>Executive Seat chair</p>
@@ -117,7 +119,7 @@ const Trending = () => {
                         </div>
                     </div>
 
-                        <div className=' h-[74px] bg-[#F5F6F8] flex'>
+                        <div className=' h-[74px] bg-[#F5F6F8] flex hover:bg-[#ffffff] transition-all duration-500'>
                         <Image className="mx-[21px]" src={t7}/>
                         <div className='ml-[10px] '>
                         <p className='text-base font-Josefin font-semibold text-[#151875] mt-5'>Executive Seat chair</p>

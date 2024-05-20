@@ -25,7 +25,7 @@ const Topcat = () => {
                   {/* ============================ */}
               <div onClick={()=> setShow1(!show1)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
   
-              <div className='h-[269px] bg-[#F6F7FB] rounded-full drop-shadow-md relative'>
+              <div className='h-[269px] bg-[#F6F7FB] hover:bg-[#ffffff] transition-all duration-500 rounded-full drop-shadow-md relative'>
               <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
               <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show1? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
   
@@ -46,7 +46,7 @@ const Topcat = () => {
   
             <div onClick={()=> setShow2(!show2)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
   
-            <div className='h-[269px] bg-[#F6F7FB] rounded-full drop-shadow-md relative'>
+            <div className='h-[269px] bg-[#F6F7FB] hover:bg-[#ffffff] transition-all duration-500 rounded-full drop-shadow-md relative'>
             <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
             <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show2? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
 
@@ -66,7 +66,7 @@ const Topcat = () => {
 
             <div onClick={()=> setShow3(!show3)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
             
-            <div className='h-[269px] bg-[#F6F7FB] rounded-full drop-shadow-md relative'>
+            <div className='h-[269px] bg-[#F6F7FB] hover:bg-[#ffffff] transition-all duration-500 rounded-full drop-shadow-md relative'>
             <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
             <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show3? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
 
@@ -83,9 +83,9 @@ const Topcat = () => {
   
   {/* ================================= */}
   
-              <div onClick={()=> setShow4(!show44)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
+              <div onClick={()=> setShow4(!show4)} className='lg:w-[270px] w-[370px] h-[345px] lg:mt-[50px] mt-6 cursor-pointer group'>
   
-              <div className='h-[269px] bg-[#F6F7FB] rounded-full drop-shadow-md relative'>
+              <div className='h-[269px] bg-[#F6F7FB] hover:bg-[#ffffff] transition-all duration-500 rounded-full drop-shadow-md relative'>
               <Image className='absolute bottom-3 left-[50%] translate-x-[-50%]' src={f3}/>
               <Button className={`font-Josefin py-2 px-3.5 bg-[#08D15F] absolute bottom-[10px] left-[50%] translate-x-[-50%] rounded-sm transition-all duration-500 ${show4? "static": "absolute translate-y-[100%] invisible"}`} text="View Details"/>
   

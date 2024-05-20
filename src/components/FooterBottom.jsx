@@ -6,10 +6,10 @@ import { IoLogoTwitter } from 'react-icons/io';
 
 const FooterBottom = () => {
   return (
-    <div className='bg-[#E7E4F8] mt-12'>
+    <div className='bg-[#E7E4F8]'>
         <Container>
         <div className='flex justify-between items-center'>
-            <p className='lg:ml-[69px] lg:py-4 font-Lato lg:text-base text-xs lg:font-semibold text-[#9DA0AE]'>©Webecy - All Rights Reserved</p>
+            <p className='lg:ml-[69px] py-4 font-Lato lg:text-base text-xs lg:font-semibold text-[#9DA0AE]'>©Webecy - All Rights Reserved</p>
 
             <div className='flex lg:mr-[140px] items-center gap-x-3'>
 

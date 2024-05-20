@@ -9,6 +9,7 @@ import Addtwo from '../Addtwo'
 import Discount from '../Discount'
 import Topcat from '../Topcat'
 import Award from '../Award'
+import Blog from '../Blog'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Topcat/>
       <Addtwo/>
       <Award/>
+      <Blog/>
     </div>
   )
 }
