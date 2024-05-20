@@ -9,13 +9,13 @@ import s4 from '../assets/s4.png'
 
 const Shopex = () => {
   return (
-    <div className=' mt-[140px] '>
-        <Container>
+    <div className='lg:mt-[140px] mt-20'>
+        <Container className="px-3 lg:px-0">
             <Title className="text-center" text="What Shopex Offer!"/>
 
-          <div className='mt-14 flex justify-between cursor-pointer'>
+          <div className='lg:mt-14 mt-8 flex flex-wrap justify-between cursor-pointer'>
 
-          <div className='w-[270px] h-[320px] flex flex-col  items-center hover:bg-[#EEEFFB] hover:transition-all hover:duration-300'>
+          <div className='lg:w-[270px] w-[370px] lg:h-[320px] h-[320px] flex flex-col  items-center hover:bg-[#EEEFFB] hover:transition-all hover:duration-300'>
                 <div className="icon mt-14 mb-7">
                   <Image src={s1}/>
                 </div>
@@ -23,7 +23,7 @@ const Shopex = () => {
                 <p className='text-[hsl(251, 78%, 20%, 0.3)] font-Lato text-base font-bold leading-7 mt-5 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
             </div>
 
-          <div className='w-[270px] h-[320px]  flex flex-col  items-center hover:bg-[#EEEFFB]'>
+          <div className='lg:w-[270px] w-[370px] lg:h-[320px] h-[320px]  flex flex-col  items-center hover:bg-[#EEEFFB]'>
                 <div className="icon mt-14 mb-7">
                   <Image src={s2}/>
                 </div>
@@ -31,7 +31,7 @@ const Shopex = () => {
                 <p className='text-[hsl(251, 78%, 20%, 0.3)] font-Lato text-base font-bold leading-7 mt-5 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
             </div>
 
-          <div className='w-[270px] h-[320px]  flex flex-col  items-center hover:bg-[#EEEFFB]'>
+          <div className='lg:w-[270px] w-[370px] lg:h-[320px] h-[320px] flex flex-col  items-center hover:bg-[#EEEFFB]'>
                 <div className="icon mt-14 mb-7">
                   <Image src={s3}/>
                 </div>
@@ -39,7 +39,7 @@ const Shopex = () => {
                 <p className='text-[hsl(251, 78%, 20%, 0.3)] font-Lato text-base font-bold leading-7 mt-5 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
             </div>
 
-          <div className='w-[270px] h-[320px]  flex flex-col  items-center hover:bg-[#EEEFFB]'>
+          <div className='lg:w-[270px] w-[370px] lg:h-[320px] h-[320px]   flex flex-col  items-center hover:bg-[#EEEFFB]'>
                 <div className="icon mt-14 mb-7">
                   <Image src={s4}/>
                 </div>

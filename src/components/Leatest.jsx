@@ -13,11 +13,11 @@ import l6 from '../assets/l6.png'
 const Leatest = () => {
   return (
     <div className=''>
-        <Container>
-            <Title className="text-center mt-[70px] " text="Leatest Products"/>
+        <Container className="px-3 lg:px-0">
+            <Title className="text-center lg:mt-[70px] mt-8" text="Leatest Products"/>
 
            
-              <ul className='flex items-center flex-col gap-y-2 lg:flex-row gap-x-[60px] justify-center mt-5 mb-[58px]'>
+              <ul className='flex items-center flex-col gap-y-2 lg:flex-row gap-x-[60px] justify-center mt-5 lg:mb-[58px] mb-6'>
                 
               <Listitem className="text-[#151875] text-lg font-Lato font-normal" text="New Arrival"/>
               <Listitem className="text-[#151875] text-lg font-Lato font-normal" text="Best Seller"/>
@@ -26,12 +26,11 @@ const Leatest = () => {
               
               </ul>
 
-            <div className='flex justify-between'>
+            <div className='flex flex-wrap justify-between gap-10 gap-y-10'>
               <Productitem src={l1}/>
               <Productitem src={l2}/>
               <Productitem src={l3}/>
-              </div>
-              <div className='flex justify-between mt-[120px]'>
+             
               <Productitem src={l4}/>
               <Productitem src={l5}/>
               <Productitem src={l6}/>

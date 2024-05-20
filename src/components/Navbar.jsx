@@ -52,19 +52,19 @@ const Navbar = () => {
         </div>
 
 
-        <FaBars onClick={bar} className='lg:hidden cursor-pointer' />
+
 
         <div className='flex justify-between items-center'>
           <input type="text"
-           className='lg:w-[266px] w-full h-10 bg-white outline-none border border-[#E7E6EF]' />
-           <div className='bg-[#FB2E86] w-[50px] h-10 flex justify-center items-center'>
+           className='lg:w-[266px] w-full lg:h-10 bg-white outline-none border border-[#E7E6EF]' />
+           <div className='bg-[#FB2E86] lg:w-[50px] lg:h-10 flex justify-center items-center'>
              <FaSearch className='w-6 h-6  text-white' />
 
            </div>
          
         </div>
 
-
+        <FaBars onClick={bar} className='lg:hidden cursor-pointer ml-10 text-3xl' />
     </Container>
 </nav>
   )
