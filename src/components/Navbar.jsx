@@ -30,15 +30,15 @@ const Navbar = () => {
 
   return (
     <nav className='bg-[#ffffff] lg:py-5 font-Lato'>
-    <Container className='flex py-3 items-center  relative px-3 lg:px-0'>
-        <div className="logo mr-[88px]">
+    <Container className='flex lg:py-3 py-1 items-center  relative px-3 lg:px-0'>
+        <div className="logo lg:mr-[88px] mr-10">
             <Image href='/' src={logo} />
         </div>
 
 
                 <div className={`menu py-3 px-4 lg:py-0 absolute lg:px-0 left-0 top-full bg-[#ffffff] lg:static lg:bg-transparent flex w-full transition-all duration-700  ${show? "opacity-100 visible z-50" : " opacity-0 invisible"}`}>
 
-                  <ul className='flex items-center flex-col gap-y-2 lg:flex-row gap-x-[40px] z-50'>
+                  <ul className='lg:flex items-center flex-col gap-y-2 lg:flex-row gap-x-[40px] z-50'>
                   
                     
              
