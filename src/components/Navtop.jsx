@@ -12,13 +12,13 @@ const Navtop = () => {
 
       <Container className="px-2 lg:px-0">
         <div className='flex items-center justify-between'>
-        <div className='flex gap-x-[10px] items-center'>
-          <TbMail className='text-white font-extrabold' />
-          <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin' to='mailto:company@domain.com'>
+        <div className='flex gap-x-5 items-center'>
+          <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin flex items-center gap-x-[10px]' to='mailto:company@domain.com'>
+          <TbMail className='text-white font-extrabold h-5 w-5' />
             <span className="hidden lg:inline mr-12">shakhawatbijoy1@gmail.com</span>
           </Link>
+          <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin flex items-center gap-x-[10px]' to='tel:+8801704446708'>
           <LuPhoneCall className='text-white font-extrabold'/>
-          <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin' to='tel:+8801704446708'>
             <span className="hidden lg:inline">+8801704446708</span>
           </Link>
         </div>
@@ -26,7 +26,7 @@ const Navtop = () => {
 
         <div className='flex gap-x-4 items-center'>
         <select
-            className="bg-transparent text-[#F1F1F1] lg:text-base text-xs font-semibold font-Josefin outline-none"    >
+            className="bg-transparent text-[#F1F1F1] lg:text-base text-xs font-semibold font-Josefin outline-none cursor-pointer"    >
             
                 <option className='bg-black'>English
                 </option>                
@@ -37,7 +37,7 @@ const Navtop = () => {
         </select>
 
         <select
-            className="bg-transparent text-[#F1F1F1] lg:text-base text-xs font-semibold font-Josefin outline-none"    >
+            className="bg-transparent text-[#F1F1F1] lg:text-base text-xs font-semibold font-Josefin outline-none cursor-pointer"    >
             
                 <option className='bg-black'>USD
                 </option>                
