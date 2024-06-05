@@ -13,7 +13,7 @@ const Navtop = () => {
       <Container className="px-2 lg:px-0">
         <div className='flex items-center justify-between'>
         <div className='flex gap-x-5 items-center'>
-          <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin flex items-center gap-x-[10px]' to='mailto:company@domain.com'>
+          <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin flex items-center gap-x-[10px]' to='mailto:shakhawatbijoy1@gmail.com'>
           <TbMail className='text-white font-extrabold h-5 w-5' />
             <span className="hidden lg:inline mr-12">shakhawatbijoy1@gmail.com</span>
           </Link>
