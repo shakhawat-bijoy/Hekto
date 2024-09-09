@@ -15,11 +15,11 @@ const Navtop = () => {
         <div className='flex gap-x-5 items-center'>
           <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin flex items-center gap-x-[10px]' to='mailto:shakhawatbijoy1@gmail.com'>
           <TbMail className='text-white font-extrabold h-5 w-5' />
-            <span className="hidden lg:inline mr-12">shakhawatbijoy1@gmail.com</span>
+            <span className="hidden lg:inline mr-12">xyz1@gmail.com</span>
           </Link>
           <Link className='text-[#F1F1F1] text-base font-semibold font-Josefin flex items-center gap-x-[10px]' to='tel:+8801704446708'>
           <LuPhoneCall className='text-white font-extrabold'/>
-            <span className="hidden lg:inline">+8801704446708</span>
+            <span className="hidden lg:inline">+8801700000008</span>
           </Link>
         </div>
         

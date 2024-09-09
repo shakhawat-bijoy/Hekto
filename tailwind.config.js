@@ -9,7 +9,12 @@ export default {
       'Lato': ['Lato', 'sans-serif',],
       'Josefin': ['Josefin Sans', 'sans-serif',],
     },
-    extend: {},
+    extend: {
+      colors: {
+        beige: '#f5deb3',
+        // Add other custom colors here
+      },
+    },
   },
   plugins: [
     

@@ -48,8 +48,8 @@ const Navbar = () => {
                      <Listitem href="/" text="Blog "/>
                      <Listitem href="/" text="Shop"/>
                     <Listitem href="/" text="Contact"/>
-            </ul>
-        </div>
+                    </ul>
+                </div>
 
 
 

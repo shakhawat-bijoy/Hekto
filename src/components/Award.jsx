@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from './layer/Image'
 import award from '../assets/award.png'
 
